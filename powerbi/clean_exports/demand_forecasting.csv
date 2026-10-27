@@ -1,0 +1,29 @@
+week_start,series_type,actual_orders,predicted_orders,lower_bound_orders,upper_bound_orders,predicted_revenue_brl
+2018-05-14,Holdout Test (Actual vs Pred),1979,1689.3,,,
+2018-05-21,Holdout Test (Actual vs Pred),1679,1556.3,,,
+2018-05-28,Holdout Test (Actual vs Pred),891,1567.2,,,
+2018-06-04,Holdout Test (Actual vs Pred),1165,1335.0,,,
+2018-06-11,Holdout Test (Actual vs Pred),1507,1361.3,,,
+2018-06-18,Holdout Test (Actual vs Pred),1466,1744.2,,,
+2018-06-25,Holdout Test (Actual vs Pred),1452,1664.2,,,
+2018-07-02,Holdout Test (Actual vs Pred),1355,1675.4,,,
+2018-07-09,Holdout Test (Actual vs Pred),1149,1686.9,,,
+2018-07-16,Holdout Test (Actual vs Pred),1098,1499.9,,,
+2018-07-23,Holdout Test (Actual vs Pred),1740,1513.1,,,
+2018-07-30,Holdout Test (Actual vs Pred),1627,1777.6,,,
+2018-08-06,Holdout Test (Actual vs Pred),2142,1706.4,,,
+2018-08-13,Holdout Test (Actual vs Pred),1908,1674.2,,,
+2018-08-20,Holdout Test (Actual vs Pred),1839,1626.9,,,
+2018-08-27,Holdout Test (Actual vs Pred),742,1551.5,,,
+2018-09-03,Future Horizon ML Forecast,,904.3,418.9,1389.7,140165.9
+2018-09-10,Future Horizon ML Forecast,,1594.2,1108.8,2079.6,247097.95
+2018-09-17,Future Horizon ML Forecast,,1782.2,1296.8,2267.6,276236.79
+2018-09-24,Future Horizon ML Forecast,,1855.7,1370.3,2341.1,287636.63
+2018-10-01,Future Horizon ML Forecast,,1738.2,1252.8,2223.7,269427.07
+2018-10-08,Future Horizon ML Forecast,,1676.7,1191.3,2162.1,259891.22
+2018-10-15,Future Horizon ML Forecast,,1267.0,781.5,1752.4,196377.6
+2018-10-22,Future Horizon ML Forecast,,1558.4,1073.0,2043.8,241546.95
+2018-10-29,Future Horizon ML Forecast,,1729.6,1244.1,2215.0,268081.11
+2018-11-05,Future Horizon ML Forecast,,1794.7,1309.3,2280.1,278180.63
+2018-11-12,Future Horizon ML Forecast,,1793.8,1308.4,2279.2,278040.98
+2018-11-19,Future Horizon ML Forecast,,1742.9,1257.5,2228.4,270156.92

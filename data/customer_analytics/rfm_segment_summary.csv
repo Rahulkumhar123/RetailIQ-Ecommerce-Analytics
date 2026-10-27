@@ -1,0 +1,7 @@
+segment,customer_count,avg_recency,avg_frequency,avg_monetary,total_revenue,pct_customers,pct_revenue
+Recent High-Spenders,22473,115.2,1.0,261.24,5870841.89,24.07,38.07
+At Risk High-Value,21738,367.9,1.0,264.39,5747297.78,23.28,37.27
+Hibernating / Lost,23682,368.0,1.0,63.84,1511972.8,25.37,9.8
+Recent Low-Spenders,22664,115.4,1.0,63.01,1428135.55,24.28,9.26
+Champions,1373,116.3,2.16,343.7,471903.46,1.47,3.06
+Loyal Repeat Buyers,1428,327.2,2.07,274.83,392453.75,1.53,2.54

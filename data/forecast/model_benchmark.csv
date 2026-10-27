@@ -1,0 +1,7 @@
+Model,Type,MAE,RMSE,MAPE_pct,WAPE_pct,R2
+XGBoost Regressor (Champion ML),Gradient Boosted Trees,326.47,379.23,27.39,22.0,0.0378
+Random Forest Regressor,Ensemble Trees,341.7,383.5,27.61,23.03,0.016
+Naive Baseline (Lag-1),Persistence Baseline,303.75,427.08,26.35,20.47,-0.2203
+Moving Average (3-Wk),Smoothing Baseline,361.27,482.79,31.57,24.35,-0.5594
+Seasonal Naive (Lag-4),Monthly Seasonal Baseline,461.62,543.36,36.03,31.11,-0.9753
+Ridge Regression,Regularized Linear,587.03,677.55,49.65,39.57,-2.0714

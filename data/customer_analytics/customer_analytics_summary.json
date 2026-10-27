@@ -1,0 +1,428 @@
+{
+  "repeat_summary": {
+    "total_unique_customers": 93358,
+    "single_order_customers": 90557,
+    "repeat_customers": 2801,
+    "repeat_purchase_rate_pct": 3.0,
+    "max_orders_single_customer": 15
+  },
+  "clv_summary": {
+    "avg_historical_spend": 165.2,
+    "median_historical_spend": 107.78,
+    "avg_projected_1yr_clv": 11.54,
+    "top_10pct_spend_threshold": 318.07,
+    "top_1pct_spend_threshold": 1097.06
+  },
+  "segment_distribution": [
+    {
+      "segment": "Recent High-Spenders",
+      "customer_count": 22473,
+      "avg_recency": 115.2,
+      "avg_frequency": 1.0,
+      "avg_monetary": 261.24,
+      "total_revenue": 5870841.89,
+      "pct_customers": 24.07,
+      "pct_revenue": 38.07
+    },
+    {
+      "segment": "At Risk High-Value",
+      "customer_count": 21738,
+      "avg_recency": 367.9,
+      "avg_frequency": 1.0,
+      "avg_monetary": 264.39,
+      "total_revenue": 5747297.78,
+      "pct_customers": 23.28,
+      "pct_revenue": 37.27
+    },
+    {
+      "segment": "Hibernating / Lost",
+      "customer_count": 23682,
+      "avg_recency": 368.0,
+      "avg_frequency": 1.0,
+      "avg_monetary": 63.84,
+      "total_revenue": 1511972.8,
+      "pct_customers": 25.37,
+      "pct_revenue": 9.8
+    },
+    {
+      "segment": "Recent Low-Spenders",
+      "customer_count": 22664,
+      "avg_recency": 115.4,
+      "avg_frequency": 1.0,
+      "avg_monetary": 63.01,
+      "total_revenue": 1428135.55,
+      "pct_customers": 24.28,
+      "pct_revenue": 9.26
+    },
+    {
+      "segment": "Champions",
+      "customer_count": 1373,
+      "avg_recency": 116.3,
+      "avg_frequency": 2.16,
+      "avg_monetary": 343.7,
+      "total_revenue": 471903.46,
+      "pct_customers": 1.47,
+      "pct_revenue": 3.06
+    },
+    {
+      "segment": "Loyal Repeat Buyers",
+      "customer_count": 1428,
+      "avg_recency": 327.2,
+      "avg_frequency": 2.07,
+      "avg_monetary": 274.83,
+      "total_revenue": 392453.75,
+      "pct_customers": 1.53,
+      "pct_revenue": 2.54
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster": 0,
+      "customer_count": 31710,
+      "avg_recency": 278.6210028382214,
+      "avg_frequency": 1.0,
+      "avg_monetary": 297.33020939766635,
+      "total_revenue": 9428340.94,
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "pct_customers": 33.97,
+      "pct_revenue": 61.13
+    },
+    {
+      "cluster": 1,
+      "customer_count": 41541,
+      "avg_recency": 294.5025396596134,
+      "avg_frequency": 1.0,
+      "avg_monetary": 68.09289087889073,
+      "total_revenue": 2828646.78,
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "pct_customers": 44.5,
+      "pct_revenue": 18.34
+    },
+    {
+      "cluster": 3,
+      "customer_count": 17306,
+      "avg_recency": 49.007742979313534,
+      "avg_frequency": 1.0,
+      "avg_monetary": 132.97470819369005,
+      "total_revenue": 2301260.3,
+      "cluster_name": "Cluster 3: Low-Spend Recent",
+      "pct_customers": 18.54,
+      "pct_revenue": 14.92
+    },
+    {
+      "cluster": 2,
+      "customer_count": 2801,
+      "avg_recency": 223.81078186362012,
+      "avg_frequency": 2.1138878971795787,
+      "avg_monetary": 308.5887932881114,
+      "total_revenue": 864357.21,
+      "cluster_name": "Cluster 1: High-Spend Core",
+      "pct_customers": 3.0,
+      "pct_revenue": 5.6
+    }
+  ],
+  "top_states": [
+    {
+      "state": "SP",
+      "customer_count": 39150,
+      "total_spend": 5772003.59,
+      "repeat_customers": 1224,
+      "repeat_rate_pct": 3.13,
+      "pct_national_customers": 41.94
+    },
+    {
+      "state": "RJ",
+      "customer_count": 11913,
+      "total_spend": 2055515.18,
+      "repeat_customers": 390,
+      "repeat_rate_pct": 3.27,
+      "pct_national_customers": 12.76
+    },
+    {
+      "state": "MG",
+      "customer_count": 10996,
+      "total_spend": 1819225.19,
+      "repeat_customers": 322,
+      "repeat_rate_pct": 2.93,
+      "pct_national_customers": 11.78
+    },
+    {
+      "state": "RS",
+      "customer_count": 5167,
+      "total_spend": 861886.46,
+      "repeat_customers": 158,
+      "repeat_rate_pct": 3.06,
+      "pct_national_customers": 5.53
+    },
+    {
+      "state": "PR",
+      "customer_count": 4768,
+      "total_spend": 782041.27,
+      "repeat_customers": 141,
+      "repeat_rate_pct": 2.96,
+      "pct_national_customers": 5.11
+    },
+    {
+      "state": "SC",
+      "customer_count": 3444,
+      "total_spend": 594412.66,
+      "repeat_customers": 92,
+      "repeat_rate_pct": 2.67,
+      "pct_national_customers": 3.69
+    },
+    {
+      "state": "BA",
+      "customer_count": 3158,
+      "total_spend": 591580.2,
+      "repeat_customers": 90,
+      "repeat_rate_pct": 2.85,
+      "pct_national_customers": 3.38
+    },
+    {
+      "state": "DF",
+      "customer_count": 2017,
+      "total_spend": 345488.14,
+      "repeat_customers": 59,
+      "repeat_rate_pct": 2.93,
+      "pct_national_customers": 2.16
+    },
+    {
+      "state": "ES",
+      "customer_count": 1928,
+      "total_spend": 317826.85,
+      "repeat_customers": 57,
+      "repeat_rate_pct": 2.96,
+      "pct_national_customers": 2.07
+    },
+    {
+      "state": "GO",
+      "customer_count": 1894,
+      "total_spend": 335265.25,
+      "repeat_customers": 59,
+      "repeat_rate_pct": 3.12,
+      "pct_national_customers": 2.03
+    }
+  ],
+  "sample_customers": [
+    {
+      "customer_unique_id": "0000366f3b9a7992bf8c76cfdf3221e2",
+      "recency_days": 115,
+      "frequency": 1,
+      "monetary": 141.9,
+      "avg_order_value": 141.9,
+      "segment": "Recent High-Spenders",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "SP",
+      "projected_clv_1yr": 15.96
+    },
+    {
+      "customer_unique_id": "0000b849f77a49e4a4ce2b2a4ca5be3f",
+      "recency_days": 118,
+      "frequency": 1,
+      "monetary": 27.19,
+      "avg_order_value": 27.19,
+      "segment": "Recent Low-Spenders",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "SP",
+      "projected_clv_1yr": 3.06
+    },
+    {
+      "customer_unique_id": "0000f46a3911fa3c0805444483337064",
+      "recency_days": 541,
+      "frequency": 1,
+      "monetary": 86.22,
+      "avg_order_value": 86.22,
+      "segment": "Hibernating / Lost",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "SC",
+      "projected_clv_1yr": 1.94
+    },
+    {
+      "customer_unique_id": "0000f6ccb0745a6a4b88665a16c9f078",
+      "recency_days": 325,
+      "frequency": 1,
+      "monetary": 43.62,
+      "avg_order_value": 43.62,
+      "segment": "Hibernating / Lost",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "PA",
+      "projected_clv_1yr": 2.29
+    },
+    {
+      "customer_unique_id": "0004aac84e0df4da2b147fca70cf8255",
+      "recency_days": 292,
+      "frequency": 1,
+      "monetary": 196.89,
+      "avg_order_value": 196.89,
+      "segment": "At Risk High-Value",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "SP",
+      "projected_clv_1yr": 10.34
+    },
+    {
+      "customer_unique_id": "0004bd2a26a76fe21f786e4fbd80607f",
+      "recency_days": 150,
+      "frequency": 1,
+      "monetary": 166.98,
+      "avg_order_value": 166.98,
+      "segment": "Recent High-Spenders",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "SP",
+      "projected_clv_1yr": 15.03
+    },
+    {
+      "customer_unique_id": "00050ab1314c0e55a6ca13cf7181fecf",
+      "recency_days": 135,
+      "frequency": 1,
+      "monetary": 35.38,
+      "avg_order_value": 35.38,
+      "segment": "Recent Low-Spenders",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "SP",
+      "projected_clv_1yr": 3.18
+    },
+    {
+      "customer_unique_id": "00053a61a98854899e70ed204dd4bafe",
+      "recency_days": 186,
+      "frequency": 1,
+      "monetary": 419.18,
+      "avg_order_value": 419.18,
+      "segment": "Recent High-Spenders",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "PR",
+      "projected_clv_1yr": 37.73
+    },
+    {
+      "customer_unique_id": "0005e1862207bf6ccc02e4228effd9a0",
+      "recency_days": 547,
+      "frequency": 1,
+      "monetary": 150.12,
+      "avg_order_value": 150.12,
+      "segment": "At Risk High-Value",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "RJ",
+      "projected_clv_1yr": 3.38
+    },
+    {
+      "customer_unique_id": "0005ef4cd20d2893f0d9fbd94d3c0d97",
+      "recency_days": 174,
+      "frequency": 1,
+      "monetary": 129.76,
+      "avg_order_value": 129.76,
+      "segment": "Recent High-Spenders",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "MA",
+      "projected_clv_1yr": 11.68
+    },
+    {
+      "customer_unique_id": "0006fdc98a402fceb4eb0ee528f6a8d4",
+      "recency_days": 411,
+      "frequency": 1,
+      "monetary": 29.0,
+      "avg_order_value": 29.0,
+      "segment": "Hibernating / Lost",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "ES",
+      "projected_clv_1yr": 0.65
+    },
+    {
+      "customer_unique_id": "00082cbe03e478190aadbea78542e933",
+      "recency_days": 287,
+      "frequency": 1,
+      "monetary": 126.26,
+      "avg_order_value": 126.26,
+      "segment": "At Risk High-Value",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "SP",
+      "projected_clv_1yr": 6.63
+    },
+    {
+      "customer_unique_id": "00090324bbad0e9342388303bb71ba0a",
+      "recency_days": 162,
+      "frequency": 1,
+      "monetary": 63.66,
+      "avg_order_value": 63.66,
+      "segment": "Recent Low-Spenders",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "SP",
+      "projected_clv_1yr": 5.73
+    },
+    {
+      "customer_unique_id": "000949456b182f53c18b68d6babc79c1",
+      "recency_days": 132,
+      "frequency": 1,
+      "monetary": 82.05,
+      "avg_order_value": 82.05,
+      "segment": "Recent Low-Spenders",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "SP",
+      "projected_clv_1yr": 7.38
+    },
+    {
+      "customer_unique_id": "000a5ad9c4601d2bbdd9ed765d5213b3",
+      "recency_days": 387,
+      "frequency": 1,
+      "monetary": 91.28,
+      "avg_order_value": 91.28,
+      "segment": "Hibernating / Lost",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "RS",
+      "projected_clv_1yr": 2.05
+    },
+    {
+      "customer_unique_id": "000bfa1d2f1a41876493be685390d6d3",
+      "recency_days": 338,
+      "frequency": 1,
+      "monetary": 46.85,
+      "avg_order_value": 46.85,
+      "segment": "Hibernating / Lost",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "SP",
+      "projected_clv_1yr": 2.46
+    },
+    {
+      "customer_unique_id": "000c8bdb58a29e7115cfc257230fb21b",
+      "recency_days": 264,
+      "frequency": 1,
+      "monetary": 29.0,
+      "avg_order_value": 29.0,
+      "segment": "Hibernating / Lost",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "MG",
+      "projected_clv_1yr": 1.52
+    },
+    {
+      "customer_unique_id": "000d460961d6dbfa3ec6c9f5805769e1",
+      "recency_days": 238,
+      "frequency": 1,
+      "monetary": 36.68,
+      "avg_order_value": 36.68,
+      "segment": "Hibernating / Lost",
+      "cluster_name": "Cluster 4: Lapsed One-Offs",
+      "state": "SP",
+      "projected_clv_1yr": 1.93
+    },
+    {
+      "customer_unique_id": "000de6019bb59f34c099a907c151d855",
+      "recency_days": 381,
+      "frequency": 1,
+      "monetary": 257.44,
+      "avg_order_value": 257.44,
+      "segment": "At Risk High-Value",
+      "cluster_name": "Cluster 2: Moderate-Spend Active",
+      "state": "SP",
+      "projected_clv_1yr": 5.79
+    },
+    {
+      "customer_unique_id": "000e309254ab1fc5ba99dd469d36bdb4",
+      "recency_days": 69,
+      "frequency": 1,
+      "monetary": 78.42,
+      "avg_order_value": 78.42,
+      "segment": "Recent Low-Spenders",
+      "cluster_name": "Cluster 3: Low-Spend Recent",
+      "state": "GO",
+      "projected_clv_1yr": 8.82
+    }
+  ]
+}

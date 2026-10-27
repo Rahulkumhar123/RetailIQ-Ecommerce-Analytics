@@ -1,0 +1,293 @@
+{
+  "champion_model": "XGBoost Regressor",
+  "test_period": "2018-05-14 to 2018-08-27",
+  "metrics": {
+    "MAE": 326.47,
+    "RMSE": 379.23,
+    "MAPE_pct": 27.39,
+    "WAPE_pct": 22.0,
+    "R2": 0.0378
+  },
+  "benchmark_comparison": [
+    {
+      "Model": "XGBoost Regressor (Champion ML)",
+      "Type": "Gradient Boosted Trees",
+      "MAE": 326.47,
+      "RMSE": 379.23,
+      "MAPE_pct": 27.39,
+      "WAPE_pct": 22.0,
+      "R2": 0.0378
+    },
+    {
+      "Model": "Random Forest Regressor",
+      "Type": "Ensemble Trees",
+      "MAE": 341.7,
+      "RMSE": 383.5,
+      "MAPE_pct": 27.61,
+      "WAPE_pct": 23.03,
+      "R2": 0.016
+    },
+    {
+      "Model": "Naive Baseline (Lag-1)",
+      "Type": "Persistence Baseline",
+      "MAE": 303.75,
+      "RMSE": 427.08,
+      "MAPE_pct": 26.35,
+      "WAPE_pct": 20.47,
+      "R2": -0.2203
+    },
+    {
+      "Model": "Seasonal Naive (Lag-4)",
+      "Type": "Monthly Seasonal Baseline",
+      "MAE": 461.62,
+      "RMSE": 543.36,
+      "MAPE_pct": 36.03,
+      "WAPE_pct": 31.11,
+      "R2": -0.9753
+    },
+    {
+      "Model": "Moving Average (3-Wk)",
+      "Type": "Smoothing Baseline",
+      "MAE": 361.27,
+      "RMSE": 482.79,
+      "MAPE_pct": 31.57,
+      "WAPE_pct": 24.35,
+      "R2": -0.5594
+    },
+    {
+      "Model": "Ridge Regression",
+      "Type": "Regularized Linear",
+      "MAE": 587.03,
+      "RMSE": 677.55,
+      "MAPE_pct": 49.65,
+      "WAPE_pct": 39.57,
+      "R2": -2.0714
+    }
+  ],
+  "recent_actual_vs_predicted": [
+    {
+      "week_start": "2018-05-14",
+      "actual_orders": 1979,
+      "predicted_orders": 1689.3,
+      "absolute_error": 289.70001220703125
+    },
+    {
+      "week_start": "2018-05-21",
+      "actual_orders": 1679,
+      "predicted_orders": 1556.3,
+      "absolute_error": 122.69999694824219
+    },
+    {
+      "week_start": "2018-05-28",
+      "actual_orders": 891,
+      "predicted_orders": 1567.2,
+      "absolute_error": 676.2000122070312
+    },
+    {
+      "week_start": "2018-06-04",
+      "actual_orders": 1165,
+      "predicted_orders": 1335.0,
+      "absolute_error": 170.0
+    },
+    {
+      "week_start": "2018-06-11",
+      "actual_orders": 1507,
+      "predicted_orders": 1361.3,
+      "absolute_error": 145.6999969482422
+    },
+    {
+      "week_start": "2018-06-18",
+      "actual_orders": 1466,
+      "predicted_orders": 1744.2,
+      "absolute_error": 278.20001220703125
+    },
+    {
+      "week_start": "2018-06-25",
+      "actual_orders": 1452,
+      "predicted_orders": 1664.2,
+      "absolute_error": 212.1999969482422
+    },
+    {
+      "week_start": "2018-07-02",
+      "actual_orders": 1355,
+      "predicted_orders": 1675.4,
+      "absolute_error": 320.3999938964844
+    },
+    {
+      "week_start": "2018-07-09",
+      "actual_orders": 1149,
+      "predicted_orders": 1686.9,
+      "absolute_error": 537.9000244140625
+    },
+    {
+      "week_start": "2018-07-16",
+      "actual_orders": 1098,
+      "predicted_orders": 1499.9,
+      "absolute_error": 401.8999938964844
+    },
+    {
+      "week_start": "2018-07-23",
+      "actual_orders": 1740,
+      "predicted_orders": 1513.1,
+      "absolute_error": 226.89999389648438
+    },
+    {
+      "week_start": "2018-07-30",
+      "actual_orders": 1627,
+      "predicted_orders": 1777.6,
+      "absolute_error": 150.60000610351562
+    },
+    {
+      "week_start": "2018-08-06",
+      "actual_orders": 2142,
+      "predicted_orders": 1706.4,
+      "absolute_error": 435.6000061035156
+    },
+    {
+      "week_start": "2018-08-13",
+      "actual_orders": 1908,
+      "predicted_orders": 1674.2,
+      "absolute_error": 233.8000030517578
+    },
+    {
+      "week_start": "2018-08-20",
+      "actual_orders": 1839,
+      "predicted_orders": 1626.9,
+      "absolute_error": 212.10000610351562
+    },
+    {
+      "week_start": "2018-08-27",
+      "actual_orders": 742,
+      "predicted_orders": 1551.5,
+      "absolute_error": 809.5
+    }
+  ],
+  "future_forecast": [
+    {
+      "week_start": "2018-09-03",
+      "predicted_orders": 904.3,
+      "lower_bound_orders": 418.9,
+      "upper_bound_orders": 1389.7,
+      "predicted_revenue_brl": 140165.9
+    },
+    {
+      "week_start": "2018-09-10",
+      "predicted_orders": 1594.2,
+      "lower_bound_orders": 1108.8,
+      "upper_bound_orders": 2079.6,
+      "predicted_revenue_brl": 247097.95
+    },
+    {
+      "week_start": "2018-09-17",
+      "predicted_orders": 1782.2,
+      "lower_bound_orders": 1296.8,
+      "upper_bound_orders": 2267.6,
+      "predicted_revenue_brl": 276236.79
+    },
+    {
+      "week_start": "2018-09-24",
+      "predicted_orders": 1855.7,
+      "lower_bound_orders": 1370.3,
+      "upper_bound_orders": 2341.1,
+      "predicted_revenue_brl": 287636.63
+    },
+    {
+      "week_start": "2018-10-01",
+      "predicted_orders": 1738.2,
+      "lower_bound_orders": 1252.8,
+      "upper_bound_orders": 2223.7,
+      "predicted_revenue_brl": 269427.07
+    },
+    {
+      "week_start": "2018-10-08",
+      "predicted_orders": 1676.7,
+      "lower_bound_orders": 1191.3,
+      "upper_bound_orders": 2162.1,
+      "predicted_revenue_brl": 259891.22
+    },
+    {
+      "week_start": "2018-10-15",
+      "predicted_orders": 1267.0,
+      "lower_bound_orders": 781.5,
+      "upper_bound_orders": 1752.4,
+      "predicted_revenue_brl": 196377.6
+    },
+    {
+      "week_start": "2018-10-22",
+      "predicted_orders": 1558.4,
+      "lower_bound_orders": 1073.0,
+      "upper_bound_orders": 2043.8,
+      "predicted_revenue_brl": 241546.95
+    },
+    {
+      "week_start": "2018-10-29",
+      "predicted_orders": 1729.6,
+      "lower_bound_orders": 1244.1,
+      "upper_bound_orders": 2215.0,
+      "predicted_revenue_brl": 268081.11
+    },
+    {
+      "week_start": "2018-11-05",
+      "predicted_orders": 1794.7,
+      "lower_bound_orders": 1309.3,
+      "upper_bound_orders": 2280.1,
+      "predicted_revenue_brl": 278180.63
+    },
+    {
+      "week_start": "2018-11-12",
+      "predicted_orders": 1793.8,
+      "lower_bound_orders": 1308.4,
+      "upper_bound_orders": 2279.2,
+      "predicted_revenue_brl": 278040.98
+    },
+    {
+      "week_start": "2018-11-19",
+      "predicted_orders": 1742.9,
+      "lower_bound_orders": 1257.5,
+      "upper_bound_orders": 2228.4,
+      "predicted_revenue_brl": 270156.92
+    }
+  ],
+  "category_demand": [
+    {
+      "category": "bed_bath_table",
+      "historical_weekly_units": 175.1,
+      "projected_weekly_demand": 183.9,
+      "growth_trend_pct": 5.0,
+      "demand_confidence": "High"
+    },
+    {
+      "category": "health_beauty",
+      "historical_weekly_units": 205.5,
+      "projected_weekly_demand": 215.8,
+      "growth_trend_pct": 5.0,
+      "demand_confidence": "High"
+    },
+    {
+      "category": "sports_leisure",
+      "historical_weekly_units": 116.3,
+      "projected_weekly_demand": 122.1,
+      "growth_trend_pct": 5.0,
+      "demand_confidence": "High"
+    },
+    {
+      "category": "furniture_decor",
+      "historical_weekly_units": 117.7,
+      "projected_weekly_demand": 123.6,
+      "growth_trend_pct": 5.0,
+      "demand_confidence": "High"
+    },
+    {
+      "category": "computers_accessories",
+      "historical_weekly_units": 107.4,
+      "projected_weekly_demand": 112.7,
+      "growth_trend_pct": 5.0,
+      "demand_confidence": "High"
+    }
+  ],
+  "limitations": [
+    "Dataset ends in Oct 2018; forecasts assume macroeconomic stability and comparable seller fulfillment.",
+    "Spikes during promotional events like Black Friday require exogenous promotion calendar indicators.",
+    "Category forecasts are aggregated due to high sparsity at the individual SKU level (99k orders across 32k distinct products)."
+  ]
+}
